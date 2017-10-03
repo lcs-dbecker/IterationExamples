@@ -21,3 +21,6 @@ for i in stride(from: 0, through: 500, by: 50){
 canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: i, width: canvas.width, height: 50)
 
 }
+
+// Show the result
+PlaygroundPage.current.liveView = canvas.imageView
