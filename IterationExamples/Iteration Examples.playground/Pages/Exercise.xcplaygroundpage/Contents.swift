@@ -30,6 +30,16 @@ let canvas = Canvas(width: 300, height: 300)
 
 // Below this line, try combining a loop and a single statement to generate the goal
 
+
+for x in stride(from: 25, through: 275, by: 50) {
+    canvas.drawEllipse(centreX: x, centreY: 275, width: 3, height: 3)
+    for y in stride(from: 275, through: 25, by: -50){
+        canvas.drawEllipse(centreX: x, centreY: y, width: 3, height: 3)
+    }
+}
+
+
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.

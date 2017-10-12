@@ -24,5 +24,11 @@ canvas.drawRectangle(bottomLeftX: i, bottomLeftY: 0, width: 1, height: 100)
 
 }
 
+
+
+
+
+
 // Show the result
 PlaygroundPage.current.liveView = canvas.imageView
+
