@@ -3,8 +3,13 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/dbecker/Desktop/Lakefield/Computer%20Science/IterationExamples/IterationExamples/Iteration%20Examples.playground/Pages/Exercise.xcplaygroundpage#CharacterRangeLen=258&amp;CharacterRangeLoc=943&amp;EndingColumnNumber=0&amp;EndingLineNumber=41&amp;StartingColumnNumber=0&amp;StartingLineNumber=31&amp;Timestamp=529522975.774351"
+         documentLocation = "file:///Users/dbecker/Desktop/Lakefield/Computer%20Science/IterationExamples/IterationExamples/Iteration%20Examples.playground/Pages/Exercise.xcplaygroundpage#CharacterRangeLen=548&amp;CharacterRangeLoc=943&amp;EndingColumnNumber=0&amp;EndingLineNumber=51&amp;StartingColumnNumber=0&amp;StartingLineNumber=31&amp;Timestamp=529524566.274616"
          lockedSize = "{334, 694}"
+         selectedRepresentationIndex = "1"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/dbecker/Desktop/Lakefield/Computer%20Science/IterationExamples/IterationExamples/Iteration%20Examples.playground/Pages/Exercise.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1409&amp;EndingColumnNumber=15&amp;EndingLineNumber=45&amp;StartingColumnNumber=9&amp;StartingLineNumber=45&amp;Timestamp=529524566.274864"
          selectedRepresentationIndex = "1"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

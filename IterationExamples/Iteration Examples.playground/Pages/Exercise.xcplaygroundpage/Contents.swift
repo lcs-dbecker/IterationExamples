@@ -33,11 +33,21 @@ let canvas = Canvas(width: 300, height: 300)
 
 for x in stride(from: 25, through: 275, by: 50) {
     canvas.drawEllipse(centreX: x, centreY: 275, width: 3, height: 3)
-    for y in stride(from: 275, through: 25, by: -50){
+    for y in stride(from: 275, through: 25, by: -50) {
+        
+        //draw dots
+        
         canvas.drawEllipse(centreX: x, centreY: y, width: 3, height: 3)
+        
+        //draw line diagonal increasing
+        canvas.drawLine(fromX: x-25, fromY: y-25, toX: x+25, toY: y+25)
+        
+        //draw line diagonal decreasing
+        canvas.drawLine(fromX: x-25, fromY: y+25, toX: x+25, toY: y-25)
+
+        
     }
 }
-
 
 
 /*:
