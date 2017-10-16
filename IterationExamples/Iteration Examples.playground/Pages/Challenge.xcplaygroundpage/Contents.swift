@@ -19,13 +19,24 @@ canvas.defaultLineWidth = 1
 
 // Below this line, try combining a loop and four statements that draw lines to generate the goal
 
+// change horizonal position
 for x in stride(from: 50, through: 550, by: 100){
-    for y in stride(from: 50, through: 550, by: 100){
+    
+    // change vertical position
+   for y in stride(from: 50, through: 550, by: 100){
+    
+    // change size and saturation
         for d in stride(from: 100, through: 20, by: -20){
-        var v = random(from: 0, toButNotIncluding: 361)
-            canvas.fillColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
+        var v = random(from: 0, toButNotIncluding: 80)
+            
+            // color for circles
+            canvas.fillColor = Color.init(hue: v, saturation: 100, brightness:
+                100, alpha: 100)
+            
+            // color for borders of circes
             canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
 
+            // draw cirlces
             canvas.drawEllipse(centreX: x, centreY: y, width: d, height: d)
             
             
