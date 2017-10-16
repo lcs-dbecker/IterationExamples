@@ -37,7 +37,7 @@ for x in stride(from: 50, through: 550, by: 100){
             for t in stride(from: 20, through: 100, by: 20){
                
                 // color for borders of circes
-                canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100-t)
+                canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
             }
           
 
