@@ -27,11 +27,11 @@ for x in stride(from: 50, through: 550, by: 100){
     
     // change size and saturation
         for d in stride(from: 100, through: 20, by: -20){
-        var v = random(from: 0, toButNotIncluding: 80)
+        var v = random(from: 0, toButNotIncluding: 361)
             
             // color for circles
-            canvas.fillColor = Color.init(hue: v, saturation: 100, brightness:
-                100, alpha: 100)
+            canvas.fillColor = Color.init(hue: v, saturation: d-30, brightness:
+                40, alpha: -40)
             
             // color for borders of circes
             canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
