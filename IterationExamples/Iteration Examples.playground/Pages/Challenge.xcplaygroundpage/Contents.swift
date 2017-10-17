@@ -22,7 +22,7 @@ canvas.defaultLineWidth = 1
 for x in stride(from: 50, through: 550, by: 100){
     for y in stride(from: 50, through: 550, by: 100){
         for d in stride(from: 100, through: 20, by: -20){
-            var v = random(from: 50, toButNotIncluding: 100)
+            var v = random(from: 100, toButNotIncluding: 200)
             canvas.fillColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
             canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
             
@@ -32,6 +32,7 @@ for x in stride(from: 50, through: 550, by: 100){
         }
     }
 }
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
