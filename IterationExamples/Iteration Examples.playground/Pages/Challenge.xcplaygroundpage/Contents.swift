@@ -31,7 +31,7 @@ for x in stride(from: 50, through: 550, by: 100){
             
             // color for circles
             canvas.fillColor = Color.init(hue: v, saturation: d, brightness:
-                100, alpha: 100)
+                100, alpha: 20)
             
             // for loop to change transparency
             for t in stride(from: 20, through: 100, by: 20){
