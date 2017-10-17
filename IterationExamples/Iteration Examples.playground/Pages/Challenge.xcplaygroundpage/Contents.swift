@@ -22,7 +22,7 @@ canvas.defaultLineWidth = 1
 for x in stride(from: 50, through: 550, by: 100){
     for y in stride(from: 50, through: 550, by: 100){
         for d in stride(from: 100, through: 20, by: -20){
-            var v = random(from: 0, toButNotIncluding: 50)
+            var v = random(from: 50, toButNotIncluding: 100)
             canvas.fillColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
             canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
             
