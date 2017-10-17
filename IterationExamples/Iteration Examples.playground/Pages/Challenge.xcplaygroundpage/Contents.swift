@@ -19,29 +19,13 @@ canvas.defaultLineWidth = 1
 
 // Below this line, try combining a loop and four statements that draw lines to generate the goal
 
-// change horizonal position
 for x in stride(from: 50, through: 550, by: 100){
-    
-    // change vertical position
-   for y in stride(from: 50, through: 550, by: 100){
-    
-    // change size and saturation
+    for y in stride(from: 50, through: 550, by: 100){
         for d in stride(from: 100, through: 20, by: -20){
-        var v = random(from: 0, toButNotIncluding: 361)
+            var v = random(from: 0, toButNotIncluding: 361)
+            canvas.fillColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
+            canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
             
-            // color for circles
-            canvas.fillColor = Color.init(hue: v, saturation: d, brightness:
-                100, alpha: 20)
-            
-            // for loop to change transparency
-            for t in stride(from: 20, through: 100, by: 20){
-               
-                // color for borders of circes
-                canvas.borderColor = Color.init(hue: v, saturation: 100, brightness: 100, alpha: 100)
-            }
-          
-
-            // draw cirlces
             canvas.drawEllipse(centreX: x, centreY: y, width: d, height: d)
             
             
@@ -53,3 +37,4 @@ for x in stride(from: 50, through: 550, by: 100){
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
  */
 PlaygroundPage.current.liveView = canvas.imageView
+
